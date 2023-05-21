@@ -1,0 +1,268 @@
+@import url("./normalize.css");
+@import url("./font.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Gilroy", sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+.con {
+   width: 944px; 
+   margin: 0 auto;
+}
+
+.header {
+    background: #FFFFFF;
+    padding: 29px 0 0 0;
+}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid #828282;
+    padding-bottom: 32px;
+}
+
+.header-a {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #828282
+}
+
+.header-a__active {
+    color: #070707;
+}
+
+.offer {
+    background: #FFFFFF;
+    padding: 39px 0 104px 0;
+}
+
+.offer-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #070707;
+    width: 139px;
+}
+
+.offer-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    width: 166px;
+    margin-top: 58px;
+}
+
+.offer-lang {
+    /* writing-mode: vertical-lr; */
+    transform: rotate(270deg);
+    top: 60px;
+    height: fit-content;
+    position: relative;
+}
+
+.offer-lang__linkru {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.offer-lang__linleng {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.about-me {
+    background: #F6F6F6;
+    padding: 120px 0 80px 0;
+    text-align: center;
+}
+
+.about-me__con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    margin-bottom: 14px;
+}
+
+.about-me__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    width: 600px;
+}
+
+.about-me__text-ui {
+    margin-bottom: 53px;
+}
+
+.about-me__text-it {
+    margin-bottom: 53px;
+}
+
+.skills {
+    background: #FFFFFF;
+    padding: 91px 0px 110px 0px;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 49px;
+}
+
+.skills-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 82px;
+}
+
+.asset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.asset-item {
+    text-align: center;
+}
+
+.asset-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    margin: 23px auto 28px auto;
+    max-width: 76px;
+}
+
+.asset-ae p {
+    max-width: 80px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    padding: 112px 0px 93px 0px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 43px;
+}
+
+.portfolio-images {
+    text-align: center;
+}
+
+.portfolio-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    display: inline-block;
+    margin: 44px auto 96px auto;
+}
+
+.portfolio-images img {
+    width: 100%;
+}
+
+.contacts {
+    background: #FFFFFF;
+    padding: 114px 0px 118px  0px;
+}
+
+.contacts-con {
+    text-align: center;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    margin-bottom: 19px;
+}
+
+.contacts-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    margin-bottom: 20px;
+}
+
+.contacts-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #070707;
+    padding: 9px 26px 9px 26px;
+    border: none;
+    border-radius: 30px;
+}
+
+.contacts-img {
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+    margin: 85px auto 46px auto;
+}
+
+.contacts-text__like {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    width: 258px;
+    display: inline-block;
+}
