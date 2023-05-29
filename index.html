@@ -16,6 +16,22 @@
             <a href="#" class="header-a">Portfolio</a>
             <a href="#" class="header-a">Contacts</a>
         </div>
+        <div class="header-mobile">
+            <img src="./assets/icons/burger.svg" alt="menu" class="menu">
+            <div class="header-mobile__bur">
+                <a href="#" class="header-a home">Home</a>
+                <a href="#" class="header-a">About me</a>
+                <a href="#" class="header-a">Skills</a>
+                <a href="#" class="header-a">Portfolio</a>
+                <a href="#" class="header-a">Contacts</a>
+            </div>
+            <div class="offer-lang">
+                <a href="#" class="offer-lang__linkru">RU </a>
+                <span>|</span>
+                <a href="#" class="offer-lang__linleng"> ENG</a>
+            </div>
+            <img src="./assets/icons/krest.svg" alt="krest" class="krest">
+        </div>
     </header>
     <main class="main">
         <section class="offer" id="offer">
@@ -34,7 +50,10 @@
                     </div>
                 </div>
                 <div class="offer-bottom">
-                    <img src="./assets/image/selfi.png" alt="selfi" class="offer-bottom_selfi">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="./assets/image/selfi.png">
+                        <img src="./assets/image/selfi-mobil.png" alt="selfi" class="offer-bottom_selfi">
+                    </picture>
                 </div>
             </div>
         </section>

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .con {
-   width: 944px; 
+   max-width: 944px; 
    margin: 0 auto;
 }
 
@@ -40,6 +40,28 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header-a__active {
     color: #070707;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.header-mobile__bur {
+    display: none;
+}
+
+.offer-lang {
+    display: none;
+}
+
+.krest {
+    display: none;
+}
+
+.menu {
+    position: absolute;
+    right: 30px;
+    top: 68px;
 }
 
 .offer {
@@ -126,7 +148,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 18px;
     line-height: 25px;
     color: #070707;
-    width: 600px;
+    max-width: 600px;
 }
 
 .about-me__text-ui {
@@ -252,7 +274,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .contacts-img {
-    width: 343px;
+    max-width: 343px;
     display: flex;
     justify-content: space-between;
     margin: 85px auto 46px auto;
@@ -265,4 +287,40 @@ h1, h2, h3, h4, h5, h6, p {
     color: #828282;
     width: 258px;
     display: inline-block;
+}
+
+@media(max-width: 376px) {
+    .con {
+        padding-right: 29px;
+        padding-left: 29px;
+    }
+    .header-con {
+        display: none;
+    }
+    /* .offer-con {
+        display: none;
+    } */
+    .offer-top {
+        flex-direction: column;
+    }
+    .offer-bottom_selfi {
+        width: 100%;
+    }
+    .asset {
+        flex-direction: column;
+        row-gap: 81px;
+    }
+    .contacts-btn {
+        width: 100%;
+    }
+    .header-mobile {
+        display: block;
+    }
+    .offer {
+        padding: 0px;
+    }
+    .offer-text {
+        margin-top: 0px;
+        margin-bottom: 31px;
+    }
 }
