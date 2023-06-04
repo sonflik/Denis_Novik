@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 700;
     text-decoration: none;
     color: #828282
+    
 }
 
 .header-a__active {
@@ -43,25 +44,35 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header-mobile {
-    display: none;
+    position: fixed;
+    padding: 66px 0px 0px 26px;
+    top: 0px;
+    left: 0px;
+    background: #FFFFFF;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    /* display: none; */
 }
 
 .header-mobile__bur {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.offer-lang {
+/* .offer-lang {
     display: none;
 }
 
 .krest {
     display: none;
-}
+} */
 
 .menu {
     position: absolute;
     right: 30px;
     top: 68px;
+    display: none;
 }
 
 .offer {
@@ -103,6 +114,7 @@ h1, h2, h3, h4, h5, h6, p {
     top: 60px;
     height: fit-content;
     position: relative;
+    display: none;
 }
 
 .offer-lang__linkru {
@@ -322,5 +334,20 @@ h1, h2, h3, h4, h5, h6, p {
     .offer-text {
         margin-top: 0px;
         margin-bottom: 31px;
+    }
+    .header-a:not(:last-child) {
+        margin-bottom: 68px;
+    }
+    .krest {
+        position: absolute;
+        top: 66px;
+        right: 28px;
+    }
+    .header-a {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .home {
+        color: #090909;
     }
 }
